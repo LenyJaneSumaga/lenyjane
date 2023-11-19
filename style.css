@@ -1,0 +1,58 @@
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 90px;
+  color: rgb(77, 77, 199);
+  text-align: center;
+}
+
+p{
+  font-size: 50px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(230, 47, 47);
+}
+body{
+  background-image: url(img.jpg);
+  background-size: cover;
+  text-align: center;
+}
+button{
+  text-align: center;
+  width: 200px;
+  padding: 20px 0;
+  margin: 10px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid rgb(8, 8, 8);
+  background: transparent;
+  color:rgb(232, 235, 238);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+span{
+  background: rgba(19, 240, 74, 0.962);
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+  transition: 0.5s;
+
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border: none;
+}
+ul{
+  text-align: left;
+  color: azure;
+
+}
+
+
